@@ -6,7 +6,7 @@ import Home from "./components/home/home";
 function App() {
   return (
     <Routes>
-      <Route path="/Proyecto-tienda-medina" element={<Home />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }
