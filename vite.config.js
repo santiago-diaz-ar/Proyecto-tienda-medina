@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://santiago-diaz-ar.githud.io/Proyecto-tienda-medina", // Cambia esto a tu API
+        target: "https://santiago-diaz-ar.githud.io", // Cambia esto a tu API
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
