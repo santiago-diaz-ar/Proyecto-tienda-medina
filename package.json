@@ -2,7 +2,7 @@
   "name": "tienda-medina-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://santiago-diaz-ar.githud.io/Proyecto-tienda-medina",
+  "homepage": "https://santiago-diaz-ar.github.io/Proyecto-tienda-medina",
   "type": "module",
   "scripts": {
     "dev": "vite",
