@@ -3,8 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  border: 1px solid blue;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.112);
+  background-color: red;
 }

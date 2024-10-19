@@ -1,12 +1,12 @@
 .container {
-  border: 1px solid red;
   width: 100%;
   height: 100%;
   border-radius: 1.5rem;
   overflow: hidden;
+  background-color: red;
 }
+
 .unoA {
-  width: 100%;
   height: 25%;
   position: relative;
 }
@@ -17,25 +17,32 @@
   transform: translate(-50%, -50%);
   font-size: 2rem;
   font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  width: 72%;
 }
 
 .flex_container {
   display: flex;
   padding: 1rem;
-  border: 1px solid black;
+  border: 2px solid white;
   padding: 50px;
-  background-color: rgba(0, 0, 0, 0.26);
+  background-color: red;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   border: 1px solid red;
 }
 .cajas {
-  height: 220px;
-  width: 220px;
-  border: 1px solid red;
-  background-color: #c4c0c0;
+  height: 120px;
+  width: 420px;
+  border: 2px solid white;
+  background-color: red;
   margin: 1rem;
-  line-height: 220px;
+  line-height: 120px;
   cursor: pointer;
+  color: white;
+}
+.texto {
+  font-size: 2rem;
 }
