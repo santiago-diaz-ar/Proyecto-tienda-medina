@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./home.module.css";
+import { NavLink } from "react-router-dom";
 
 export default function home() {
   return (
@@ -11,7 +12,9 @@ export default function home() {
       </div>
       <div className={style.flex_container}>
         <div className={style.cajas}>
-          <div className={style.texto}>Productos alimenticios🍔</div>
+          <NavLink to="/categoria">
+            <div className={style.texto}>Productos alimenticios🍔</div>
+          </NavLink>
         </div>
         <div className={style.cajas}>Productos para animales🐶</div>
         <div className={style.cajas}>Productos de aseo🪥</div>
