@@ -22,6 +22,10 @@
   width: 72%;
 }
 
+.navGranos {
+  color: white;
+}
+
 .flex_container {
   display: flex;
   padding: 1rem;

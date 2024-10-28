@@ -12,7 +12,7 @@ export default function home() {
       </div>
       <div className={style.flex_container}>
         <div className={style.cajas}>
-          <NavLink to="/categoria">
+          <NavLink to="/categoria" className={style.navGranos}>
             <div className={style.texto}>Productos alimenticios🍔</div>
           </NavLink>
         </div>
