@@ -11,18 +11,20 @@ export default function CategoriaProductos() {
 
       <div className={style.title}>Productos alimenticios</div>
       <div className={style.containercajas}>
-        <div className={style.cajas}>Menu principal</div>
-        <div className={style.cajas}>granos</div>
-        <div className={style.cajas}>frutas </div>
-        <div className={style.cajas}>verduras </div>
-        <div className={style.cajas}>azucares</div>
-        <div className={style.cajas}>carnes</div>
-        <div className={style.cajas}>lácteos</div>
-        <div className={style.cajas}>enlatados</div>
-        <div className={style.cajas}>bebidas</div>
-        <div className={style.cajas}>bebidas</div>
-        <div className={style.cajas}>aceites</div>
-        <div className={style.cajas}>salsas</div>
+        <NavLink to="/subcategoria">
+          <div className={style.cajas}>Granos</div>
+        </NavLink>
+
+        <div className={style.cajas}>Frutas </div>
+        <div className={style.cajas}>Verduras </div>
+        <div className={style.cajas}>Azucares</div>
+        <div className={style.cajas}>Carnes</div>
+        <div className={style.cajas}>Lácteos</div>
+        <div className={style.cajas}>Enlatados</div>
+        <div className={style.cajas}>Bebidas</div>
+        <div className={style.cajas}>Bebidas</div>
+        <div className={style.cajas}>Aceites</div>
+        <div className={style.cajas}>Salsas</div>
       </div>
       <hr />
       <NavLink to="/">
