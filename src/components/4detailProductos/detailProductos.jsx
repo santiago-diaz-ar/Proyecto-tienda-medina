@@ -1,12 +1,17 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
+import style from "./detailProductos.module.css";
 
-export const detailProductos = () => {
+export default function detailProductos() {
   return (
-    <div>
-      <di>menu principal</di>
-      <di>volver</di>
-      <di>una libra</di>
-      <di>Arroz Imagen</di>
+    <div className={style.container}>
+      <NavLink to="/subcategoria">
+        <div className={style.dirección}>volver</div>
+      </NavLink>
+
+      <div className={style.containercajas}>
+        <div>una libra</div>
+        <di>Arroz Imagen</di>
+      </div>
     </div>
   );
-};
+}

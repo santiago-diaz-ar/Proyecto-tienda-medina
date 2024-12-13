@@ -1,12 +1,18 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
+import style from "./cantidadProductos.module.css";
+import imagen from "../../img/arrozdiana.jpg";
 
-export const cantidadProductos = () => {
+export default function cantidadProductos() {
   return (
-    <div>
-      <div>menu principal</div>
-      <div>volver</div>
-      <div>una libra</div>
-      <div>un kilo</div>
+    <div className={style.container}>
+      <NavLink to="/subcategoria">
+        <div className={style.dirección}>volver</div>
+      </NavLink>
+      <hr />
+      <div >1 Libra</div>
+      <div className={style.contenedordeimagen}>
+        <img src={imagen} alt="arroz diana" />
+      </div>
     </div>
   );
-};
+}

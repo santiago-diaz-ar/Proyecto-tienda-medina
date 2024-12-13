@@ -8,7 +8,10 @@ export default function subcategoriaProductos() {
       </NavLink>
       <div className={style.title}>Granos</div>
       <div className={style.containercajas}>
-        <div className={style.cajas}>arroz</div>
+        <NavLink to="/cantidadproductos">
+          <div className={style.cajas}>arroz</div>
+        </NavLink>
+
         <div className={style.cajas}>frijol</div>
         <div className={style.cajas}>lentejas</div>
         <div className={style.cajas}>garbanzos</div>

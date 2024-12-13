@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.volver {
+  border-radius: 1rem;
+  border: 3px solid white;
+  color: white;
+}
+.containercajas {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cajas {
+  border: 1px solid white;
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 0.3rem;
+}
+
+.dirección {
+  border: 3px solid black;
+  width: 10rem;
+  height: 2rem;
+  color: white;
+  border-radius: 0.3rem;
+}
+.contenedordeimagen {
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
